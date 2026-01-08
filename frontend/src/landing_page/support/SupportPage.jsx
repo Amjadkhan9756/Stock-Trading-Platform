@@ -1,12 +1,17 @@
 import React from "react";
-
-
-function SupportPage(){
+ import Hero from "./Hero";
+import Createticket from "./CreateTicket";
+function SupportPage() {
     return (
         <>
-      
-        <h1>this is suporte Page</h1></>
-    )
+        <Hero/>
+        <Createticket/>
+
+        
+        </>
+
+
+    );
 }
 
 export default SupportPage;

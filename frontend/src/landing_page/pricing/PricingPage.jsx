@@ -1,18 +1,17 @@
 import React from "react";
-// import Hero from "./Hero";
-
-function PricingPage(){
-    return(
+import Hero from "./Hero";
+import Openaccount from "../Openaccount";
+import Brokerage from "./Brokerage";
+function PricingPage() {
+    return ( 
         <>
         
-        <div className="container text-center py-4">
-
-            <h1> Charges</h1>
-            <p className="container text-muted  mt-2">List of all charges and taxes</p>
-        </div>
-     
+        <Hero/>
+        <Openaccount/>
+        <Brokerage/>
         </>
-    )
+
+     );
 }
 
 export default PricingPage;
