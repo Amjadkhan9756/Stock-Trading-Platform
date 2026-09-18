@@ -4,7 +4,7 @@ function Awards() {
   return (
     <>
       <div className="container text-center py-5">
-        <h1>Open a Zerodha account</h1>
+        <h1>Open a Zerodha account for the tradding </h1>
         <p className="mb-4">
           Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and
           F&O trades.
